@@ -1,0 +1,75 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8eebd315-f0e4-497a-be20-4a6ea49a4395": {
+        "id": "8eebd315-f0e4-497a-be20-4a6ea49a4395",
+        "parent": null,
+        "name": "we2e",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "86e41b5f-78f7-4728-938d-eee9cc0955c7"
+        ],
+        "isRemovable": false,
+        "filePath": "we2e"
+      },
+      "86e41b5f-78f7-4728-938d-eee9cc0955c7": {
+        "id": "86e41b5f-78f7-4728-938d-eee9cc0955c7",
+        "parent": "8eebd315-f0e4-497a-be20-4a6ea49a4395",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "we2e/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "8eebd315-f0e4-497a-be20-4a6ea49a4395",
+    "openFiles": [
+      "86e41b5f-78f7-4728-938d-eee9cc0955c7"
+    ],
+    "currentFileId": "86e41b5f-78f7-4728-938d-eee9cc0955c7",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "we2e",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576566863062
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "we2e",
+      "url": "https://github.com/zgma-test/we2e"
+    }
+  }
+}
